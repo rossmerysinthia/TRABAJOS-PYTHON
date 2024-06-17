@@ -1,0 +1,7 @@
+#cómo acceder a una gama de elementos de una tupla utilizando índices negativos:
+mi_tupla = (1, 2, 3, 4, 5)
+print(mi_tupla[-3:-1]) # Imprime (3, 4)
+
+#cómo acceder a cada segundo elemento de una tupla utilizando índices negativos:
+mi_tupla = (1, 2, 3, 4, 5)
+print(mi_tupla[-2::-2]) # Imprime (4, 2)

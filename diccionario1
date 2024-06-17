@@ -1,0 +1,10 @@
+#Para crear un diccionario en Python, podemos utilizar llaves { } y separar cada par clave-valor con dos puntos:
+
+estudiantes = {'Juan': 16, 'Ana': 18, 'Luis': 17}
+print(estudiantes) # {'Juan': 16, 'Ana': 18, 'Luis': 17}
+
+#También podemos crear un diccionario utilizando la función dict() y pasando una lista de tuplas clave:valor:
+
+
+estudiantes = dict([('Juan', 16), ('Ana', 18), ('Luis', 17)])
+print(estudiantes) # {'Juan': 16, 'Ana': 18, 'Luis': 17}
